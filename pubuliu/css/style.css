@@ -1,0 +1,40 @@
+@IMPORT "reset.css";
+#main{
+    position: relative;
+}
+.box{
+    padding: 15px 0 0 15px;
+    float: left;
+}
+.pic{
+    
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #ccc;
+	background:#cfcb66
+}
+.pic img{
+    width: 183px;
+    height: auto;
+	 border-radius: 5px;
+}
+.pic p{
+	
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	
+	margin:0px;
+}
+.pic p a{
+	color:#654b77;
+	text-decoration:none;
+}
+.pic p a:hover{
+	color:blue
+}
+.pic p span{
+	color:#993152
+}
